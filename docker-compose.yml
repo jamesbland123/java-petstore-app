@@ -15,7 +15,6 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile
-      image: modernization-workshop
     depends_on:
       - postgres
     ports:
